@@ -7,4 +7,7 @@
     <select id="getUser" parameterType="long" resultType="user">
         select id, user_name as userName, sex, note from test_login_user where id = #{id}
     </select>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into test_login_user(user_name, sex, note) value (#{userName}, #{sex}, #{note})
+    </insert>
 </mapper>

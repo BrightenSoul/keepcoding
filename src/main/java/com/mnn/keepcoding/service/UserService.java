@@ -9,4 +9,6 @@ import com.mnn.keepcoding.domain.User;
  */
 public interface UserService {
     public User getUser(Long id);
+
+    public int insertUser(User user);
 }
