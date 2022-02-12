@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!--在默认的情况下，MyBatis会启动自动映射，将SQL中的列映射到POJO上，有时候你也可以启动驼峰映射，这样就可以不启用别名了-->
+<!--在默认的情况下，MyBatis会启动自动映射，将SQL中的列映射到POJO上，也可以启动驼峰映射，这样就可以不启用别名了-->
 <mapper namespace="com.mnn.keepcoding.repository.userDao.UserDao">
     <select id="getUser" parameterType="long" resultType="user">
         select id, user_name as userName, sex, note from test_login_user where id = #{id}
