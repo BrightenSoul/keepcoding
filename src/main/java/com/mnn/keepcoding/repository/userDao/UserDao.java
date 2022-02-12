@@ -1,4 +1,4 @@
-package com.mnn.keepcoding.repository.userdao;
+package com.mnn.keepcoding.repository.userDao;
 
 import com.mnn.keepcoding.domain.User;
 import org.springframework.stereotype.Repository;

@@ -1,7 +1,7 @@
 package com.mnn.keepcoding.service.impl;
 
 import com.mnn.keepcoding.domain.User;
-import com.mnn.keepcoding.repository.userdao.UserDao;
+import com.mnn.keepcoding.repository.userDao.UserDao;
 import com.mnn.keepcoding.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
